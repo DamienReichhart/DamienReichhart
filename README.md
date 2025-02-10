@@ -1,6 +1,12 @@
 <h1 align="center">Hi 👋, I'm REICHHART Damien</h1>
 <h3 align="center">🚀 Full-Stack Dev | Docker Enthusiast | Automating the Future 🔥</h3>
 
+- 🔭 I’m currently working on [ForgeTrade](https://github.com/DamienReichhart/ForgeTrade)
+
+- 🌱 I’m currently learning **Spring**
+
+- 👨‍💻 All of my projects are available at [https://damien-reichhart.fr](https://damien-reichhart.fr)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
