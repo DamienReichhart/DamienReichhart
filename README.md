@@ -101,12 +101,16 @@
 
 <!-- GitHub Activity Graph -->
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=damienreichhart&theme=tokyo-night&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=damienreichhart&theme=tokyo-night&hide_border=true" width="100%"/>
 </div>
 
-<!-- Snake animation -->
+<!-- Snake animation - requires workflow setup -->
 <div align="center">
-  <img src="https://github.com/DamienReichhart/DamienReichhart/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <!-- Footer -->
