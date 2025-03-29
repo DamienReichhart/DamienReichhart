@@ -29,7 +29,7 @@
 - 🔭 I'm currently working on [ForgeCopier](https://github.com/DamienReichhart/ForgeCopier)
 - 🌱 I'm continuously learning and exploring new technologies
 - 👨‍💻 Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
-- 📫 Reach me at: [LinkedIn](https://linkedin.com/in/damienreichhart)
+- 📫 Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
 
 ## 📊 GitHub Stats
 
@@ -94,19 +94,23 @@
   <a href="https://gitlab.com/Damien-Reic" target="_blank">
     <img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
   </a>
-  <a href="https://linkedin.com/in/damienreichhart" target="_blank">
+  <a href="https://www.linkedin.com/in/damien-reichhart-582229244/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
 <!-- GitHub Activity Graph -->
 <div align="center">
-  <img src="https://activity-graph.herokuapp.com/graph?username=damienreichhart&theme=tokyo-night&hide_border=true" width="100%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=damienreichhart&theme=tokyo-night&hide_border=true" width="100%"/>
 </div>
 
-<!-- Snake animation -->
+<!-- Snake animation - requires workflow setup -->
 <div align="center">
-  <img src="https://github.com/DamienReichhart/DamienReichhart/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/github-contribution-grid-snake.svg">
+  </picture>
 </div>
 
 <!-- Footer -->
