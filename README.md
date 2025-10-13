@@ -14,8 +14,8 @@
   <a href="https://damien-reichhart.fr" target="_blank">
     <img src="https://img.shields.io/badge/Website-damien--reichhart.fr-blue?style=for-the-badge&logo=globe" alt="Website" />
   </a>
-  <a href="https://github.com/DamienReichhart/ForgeCopier" target="_blank">
-    <img src="https://img.shields.io/badge/Project-ForgeCopier-orange?style=for-the-badge&logo=github" alt="ForgeCopier Project" />
+  <a href="https://github.com/DamienReichhart/BackTrade" target="_blank">
+    <img src="https://img.shields.io/badge/Project-BackTrade-orange?style=for-the-badge&logo=github" alt="BackTrade Project" />
   </a>
 </p>
 
