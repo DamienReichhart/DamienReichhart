@@ -34,12 +34,29 @@
 ## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=damienreichhart&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=damienreichhart&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170">
+
+  <!-- Main Stats – modern glass look -->
+  <img 
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=damienreichhart&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&theme=react&hide_border=true&border_radius=12"
+    height="170"
+    alt="Main GitHub Stats"
+  />
+
+  <!-- Streak Stats -->
+  <img 
+    src="https://streak-stats.demolab.com?user=damienreichhart&theme=react&hide_border=true&border_radius=12"
+    height="170"
+    alt="GitHub Streak"
+  />
 </div>
 
+<!-- Language Card -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damienreichhart&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+  <img 
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=damienreichhart&layout=compact&theme=react&hide_border=true&border_radius=12"
+    height="180"
+    alt="Top Languages"
+  />
 </div>
 
 ## Skills & Technologies
