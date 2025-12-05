@@ -24,14 +24,14 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="200" />
 </div>
 
-## 🧠 About Me
+## About Me
 
-- 🔭 I'm currently working on [ForgeCopier](https://github.com/DamienReichhart/ForgeCopier)
-- 🌱 I'm continuously learning and exploring new technologies
-- 👨‍💻 Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
-- 📫 Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
+-  I'm currently working on [ForgeCopier](https://github.com/DamienReichhart/ForgeCopier)
+-  I'm continuously learning and exploring new technologies
+-  Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
+-  Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=damienreichhart&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170">
@@ -42,29 +42,21 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damienreichhart&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
 </div>
 
-## 🛠️ Skills & Technologies
+## Skills & Technologies
 
 <details open>
-  <summary><b>Languages</b></summary>
+  <summary><b>Technologies I Actually Use Daily</b></summary>
   <br>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,ts,python,java,go,php,rust" />
+    <img src="https://skillicons.dev/icons?i=python,spring,react,postgres,redis" />
   </p>
 </details>
 
 <details open>
-  <summary><b>Frontend</b></summary>
+  <summary><b>Tools I Use When Needed</b></summary>
   <br>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,react,bootstrap,sass,tailwind" />
-  </p>
-</details>
-
-<details open>
-  <summary><b>Backend & Databases</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs,django,flask,laravel,spring,mysql,postgres,mongodb,redis,cassandra" />
+    <img src="https://skillicons.dev/icons?i=tauri,nodejs" />
   </p>
 </details>
 
@@ -72,20 +64,11 @@
   <summary><b>DevOps & Tools</b></summary>
   <br>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,nginx,git,linux,bash" />
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,git,linux,bash" />
   </p>
 </details>
 
-<details open>
-  <summary><b>Machine Learning</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" width="45" height="45"/>
-  </p>
-</details>
-
-## 📫 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/DamienReichhart" target="_blank">
