@@ -14,8 +14,8 @@
   <a href="https://damien-reichhart.fr" target="_blank">
     <img src="https://img.shields.io/badge/Website-damien--reichhart.fr-blue?style=for-the-badge&logo=globe" alt="Website" />
   </a>
-  <a href="https://github.com/DamienReichhart/BackTrade" target="_blank">
-    <img src="https://img.shields.io/badge/Project-BackTrade-orange?style=for-the-badge&logo=github" alt="BackTrade Project" />
+  <a href="https://github.com/DamienReichhart/Backtrade" target="_blank">
+    <img src="https://img.shields.io/badge/Project-BackTrade-orange?style=for-the-badge&logo=github" alt="Backtrade Project" />
   </a>
 </p>
 
@@ -24,47 +24,56 @@
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="200" />
 </div>
 
-## 🧠 About Me
+## About Me
 
-- 🔭 I'm currently working on [BackTrade](https://github.com/DamienReichhart/BackTrade)
-- 🌱 I'm continuously learning and exploring new technologies
-- 👨‍💻 Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
-- 📫 Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
+-  I'm currently working on [ForgeCopier](https://github.com/DamienReichhart/ForgeCopier)
+-  I'm continuously learning and exploring new technologies
+-  Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
+-  Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=damienreichhart&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats" height="170">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=damienreichhart&theme=tokyonight&hide_border=true" alt="GitHub Streak" height="170">
-</div>
+## GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=damienreichhart&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages">
+
+  <!-- Main Stats – modern glass look -->
+  <img 
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=damienreichhart&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&theme=react&hide_border=true&border_radius=12"
+    height="170"
+    alt="Main GitHub Stats"
+  />
+
+  <!-- Streak Stats -->
+  <img 
+    src="https://streak-stats.demolab.com?user=damienreichhart&theme=react&hide_border=true&border_radius=12"
+    height="170"
+    alt="GitHub Streak"
+  />
 </div>
 
-## 🛠️ Skills & Technologies
+<!-- Language Card -->
+<div align="center">
+  <img 
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=damienreichhart&layout=compact&theme=react&hide_border=true&border_radius=12"
+    height="180"
+    alt="Top Languages"
+  />
+</div>
+
+## Skills & Technologies
 
 <details open>
-  <summary><b>Languages</b></summary>
+  <summary><b>Technologies I Actually Use Daily</b></summary>
   <br>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=js,ts,python,java,go,php,rust" />
+    <img src="https://skillicons.dev/icons?i=python,spring,react,postgres,redis" />
   </p>
 </details>
 
 <details open>
-  <summary><b>Frontend</b></summary>
+  <summary><b>Tools I Use When Needed</b></summary>
   <br>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=html,css,react,bootstrap,sass,tailwind" />
-  </p>
-</details>
-
-<details open>
-  <summary><b>Backend & Databases</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=nodejs,django,flask,laravel,spring,mysql,postgres,mongodb,redis,cassandra" />
+    <img src="https://skillicons.dev/icons?i=tauri,nodejs" />
   </p>
 </details>
 
@@ -72,20 +81,11 @@
   <summary><b>DevOps & Tools</b></summary>
   <br>
   <p align="center">
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,nginx,git,linux,bash" />
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,git,linux,bash" />
   </p>
 </details>
 
-<details open>
-  <summary><b>Machine Learning</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch" />
-    <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" width="45" height="45"/>
-  </p>
-</details>
-
-## 📫 Connect With Me
+## Connect With Me
 
 <p align="center">
   <a href="https://github.com/DamienReichhart" target="_blank">
