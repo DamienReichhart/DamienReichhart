@@ -26,7 +26,7 @@
 
 ## About Me
 
--  I'm currently working on [ForgeCopier](https://github.com/DamienReichhart/ForgeCopier)
+-  I'm currently working on [BackTrade](https://github.com/DamienReichhart/BackTrade)
 -  I'm continuously learning and exploring new technologies
 -  Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
 -  Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
