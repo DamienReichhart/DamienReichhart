@@ -68,11 +68,11 @@ A request's journey through what I actually ship with, top to bottom.
 ## Right now
 
 <table>
-  <tr><td>🚢&nbsp;<b>Shipping</b></td><td><a href="https://github.com/DamienReichhart/Homeport">Homeport</a>: every Docker Engine on one board, built in Rust and Tauri.</td></tr>
-  <tr><td>🧱&nbsp;<b>Hardening</b></td><td>The <a href="https://github.com/DamienReichhart/template-fullstack-typescript-production">production TypeScript template</a>: bounded contexts, enforced layers, and a CI that boots every image it ships.</td></tr>
-  <tr><td>🎓&nbsp;<b>Studying</b></td><td>Master's in software engineering at CCI Campus Alsace, work-study at Walter Piscine. Graduating June 2028.</td></tr>
-  <tr><td>🔧&nbsp;<b>Learning</b></td><td>Running ERPs in production (Odoo 19, ERPNext v16) without exposing a single port.</td></tr>
-  <tr><td>📖&nbsp;<b>Reading</b></td><td>Cont, <a href="https://doi.org/10.1080/713665670"><i>Empirical properties of asset returns</i></a>, to make synthetic markets less synthetic.</td></tr>
+  <tr><td><b>Shipping</b></td><td><a href="https://github.com/DamienReichhart/Homeport">Homeport</a>: every Docker Engine on one board, built in Rust and Tauri.</td></tr>
+  <tr><td><b>Hardening</b></td><td>The <a href="https://github.com/DamienReichhart/template-fullstack-typescript-production">production TypeScript template</a>: bounded contexts, enforced layers, and a CI that boots every image it ships.</td></tr>
+  <tr><td><b>Studying</b></td><td>Master's in software engineering at CCI Campus Alsace, work-study at Walter Piscine. Graduating June 2028.</td></tr>
+  <tr><td><b>Learning</b></td><td>Running ERPs in production (Odoo 19, ERPNext v16) without exposing a single port.</td></tr>
+  <tr><td><b>Reading</b></td><td>Cont, <a href="https://doi.org/10.1080/713665670"><i>Empirical properties of asset returns</i></a>, to make synthetic markets less synthetic.</td></tr>
 </table>
 
 <details>
@@ -99,9 +99,9 @@ A request's journey through what I actually ship with, top to bottom.
 
 <table>
   <tr>
-    <td width="33%" valign="top"><b>📈 Markets</b><br>Why prices move the way they do, and how to test an idea before trusting it. Most of my side projects start here.</td>
-    <td width="33%" valign="top"><b>🏠 Homelab</b><br>My own services on my own hardware, with nothing exposed to the internet but a tunnel. Cheaper than therapy, slightly less stable.</td>
-    <td width="33%" valign="top"><b>🎛️ Creative coding</b><br>A <a href="https://damien-reichhart.fr/lab">Lab</a> of browser toys: a flow field of thousands of particles, a flock of boids, and a pentatonic step sequencer.</td>
+    <td width="33%" valign="top"><b>Markets</b><br>Why prices move the way they do, and how to test an idea before trusting it. Most of my side projects start here.</td>
+    <td width="33%" valign="top"><b>Homelab</b><br>My own services on my own hardware, with nothing exposed to the internet but a tunnel. Cheaper than therapy, slightly less stable.</td>
+    <td width="33%" valign="top"><b>Creative coding</b><br>A <a href="https://damien-reichhart.fr/lab">Lab</a> of browser toys: a flow field of thousands of particles, a flock of boids, and a pentatonic step sequencer.</td>
   </tr>
 </table>
 
