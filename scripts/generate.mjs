@@ -176,17 +176,18 @@ function marketStats(weeks) {
 function market(t, weeks) {
   const W = 840, H = 330, X0 = 24, X1 = 792, Y0 = 92, Y1 = 232, V0 = 246, V1 = 290;
   const { candles, best, streak, longest, total } = marketStats(weeks);
-  const maxP = Math.max(1, ...candles.map((c) => c.high)) * 1.06;
-  const maxV = Math.max(1, ...candles.map((c) => c.vol));
+  // Log scale, like any chart with a 100x move: one huge day must not flatten the year.
+  const topP = Math.max(1, ...candles.map((c) => c.high));
+  const maxP = Math.log1p(topP) * 1.06;
+  const maxV = Math.log1p(Math.max(1, ...candles.map((c) => c.vol)));
   const step = (X1 - X0) / candles.length, bw = Math.max(3, step * 0.62);
-  const y = (v) => r1(Y1 - (v / maxP) * (Y1 - Y0));
+  const y = (v) => r1(Y1 - (Math.log1p(v) / maxP) * (Y1 - Y0));
 
-  const grid = [0.25, 0.5, 0.75, 1]
-    .map((f) => {
-      const v = (maxP / 1.06) * f;
-      return `<line x1="${X0}" x2="${X1}" y1="${y(v)}" y2="${y(v)}" stroke="${t.faint}"/>
-<text x="${X1 + 8}" y="${y(v) + 4}" class="m mu" font-size="10">${v.toFixed(v < 10 ? 1 : 0)}</text>`;
-    })
+  const grid = [1, 3, 10, 30, 100, 300, 1000, 3000]
+    .filter((v) => v <= topP)
+    .slice(-4)
+    .map((v) => `<line x1="${X0}" x2="${X1}" y1="${y(v)}" y2="${y(v)}" stroke="${t.faint}"/>
+<text x="${X1 + 8}" y="${y(v) + 4}" class="m mu" font-size="10">${v}</text>`)
     .join("\n");
 
   let lastMonth = -1;
@@ -194,7 +195,7 @@ function market(t, weeks) {
     .map((c, i) => {
       const cx = r1(X0 + step * (i + 0.5)), up = c.close >= c.open, col = up ? t.up : t.down;
       const top = y(Math.max(c.open, c.close)), bot = y(Math.min(c.open, c.close));
-      const vh = r1((c.vol / maxV) * (V1 - V0));
+      const vh = r1((Math.log1p(c.vol) / maxV) * (V1 - V0));
       const month = Number(c.date.slice(5, 7)) - 1;
       let tick = "";
       if (month !== lastMonth && i < candles.length - 2) {
@@ -214,7 +215,7 @@ function market(t, weeks) {
   const ly = y(last.close);
 
   return svg(W, H, t, `<text x="${X0}" y="42" class="m" font-size="17" font-weight="700"><tspan class="ac">${esc(initials())}/COMMITS</tspan><tspan dx="14">${last.close.toFixed(1)}</tspan><tspan dx="10" font-size="13" fill="${chgCol}">${chgTxt}</tspan></text>
-<text x="${X0}" y="62" class="mu" font-size="11.5">Commit momentum index · weekly candles · volume = contributions per week</text>
+<text x="${X0}" y="62" class="mu" font-size="11.5">Commit momentum index · weekly candles · log scale</text>
 ${stat(816, "52W VOLUME", total.toLocaleString("en-US"))}
 ${stat(700, "BEST DAY", best.count)}
 ${stat(612, "STREAK", `${streak}d`)}
