@@ -7,10 +7,8 @@
 
 <p align="center">
   <a href="https://damien-reichhart.fr"><b>Portfolio</b></a> &nbsp;·&nbsp;
-  <a href="https://backtrade.damien-reichhart.fr"><b>BackTrade live</b></a> &nbsp;·&nbsp;
   <a href="https://damienreichhart.github.io/Homeport/"><b>Homeport</b></a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/damien-reichhart-582229244/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
-  <a href="https://gitlab.com/Damien-Reic"><b>GitLab</b></a> &nbsp;·&nbsp;
   <a href="https://damien-reichhart.fr/contact"><b>Contact</b></a>
 </p>
 

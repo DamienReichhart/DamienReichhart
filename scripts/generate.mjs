@@ -27,7 +27,7 @@ const PROFILE = {
 const PROJECTS = [
   {
     repo: "BackTrade",
-    tag: "live demo",
+    tag: "market replay",
     text: "Replay historical markets as if they were live: trade in simulated real time, then dissect your performance.",
   },
   {
