@@ -3,7 +3,7 @@
 //
 //   node scripts/generate.mjs            live data (needs GITHUB_TOKEN) -> dist/
 //   node scripts/generate.mjs --mock     sample data, for local preview -> dist/
-//   node scripts/generate.mjs --static   header banner only -> assets/ (committed)
+//   node scripts/generate.mjs --static   header, stack, flow field -> assets/ (committed)
 //
 // Each card is written twice: <name>-dark.svg and <name>-light.svg.
 
@@ -24,6 +24,7 @@ const PROFILE = {
 };
 
 // Featured repositories. Stars, language and last push come from the API.
+// Optional: `title` (shown instead of the repo name) and `slug` (file name).
 const PROJECTS = [
   {
     repo: "BackTrade",
@@ -41,10 +42,21 @@ const PROJECTS = [
     text: "Synthetic OHLCV data for forex, crypto and stocks, realistic enough to backtest and stress-test strategies.",
   },
   {
-    repo: "DeliverTable",
-    tag: "team of 3 · lead dev",
-    text: "Restaurant booking and delivery platform: interactive map, online orders and payments.",
+    repo: "template-fullstack-typescript-production",
+    slug: "template",
+    title: "Production TS Template",
+    tag: "Nx · Bun monorepo",
+    text: "Production-ready foundation: NestJS API, BullMQ worker, Next.js web app, enforced layer boundaries.",
   },
+];
+// The stack card, top of the request to the bottom. Keep it to what the repos prove.
+const STACK = [
+  ["languages", ["TypeScript", "Rust", "Python", "C#", "Java", "Bash"]],
+  ["interface", ["React", "Next.js", "Vite", "Tauri", "Blazor", "JavaFX"]],
+  ["api & jobs", ["NestJS", "Express", "ASP.NET Core", "Spring Boot", "BullMQ", "RabbitMQ"]],
+  ["data", ["PostgreSQL", "Prisma", "ClickHouse", "Redis", "S3 / RustFS"]],
+  ["ship & run", ["Docker", "Kubernetes", "Nx", "Bun", "GitHub Actions", "Nginx", "Cloudflare"]],
+  ["prove it", ["Jest", "Playwright", "pytest", "JUnit", "Trivy"]],
 ];
 // ─────────────────────────────────────────────────────────────────────────────
 
@@ -78,6 +90,8 @@ text{font-family:${SANS};fill:${t.text}}
 @keyframes blink{50%{opacity:0}}
 @keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
 @keyframes flow{to{stroke-dashoffset:-24}}
+@keyframes run{to{stroke-dashoffset:-1300}}
+@keyframes drop{0%{transform:translateY(0);opacity:0}8%{opacity:1}92%{opacity:1}100%{transform:translateY(var(--d));opacity:0}}
 .in{opacity:0;animation:in .5s ease-out forwards}
 @media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}}
 </style>
@@ -227,6 +241,54 @@ ${bars}
     { label: `Contribution chart drawn as market candles: ${total} contributions in the last year, current streak ${streak} days` });
 }
 
+// ── Stack: a request travelling down the layers ──────────────────────────────
+function stack(t) {
+  const W = 840, LX = 168, RX = 816, PH = 26, GAP = 8, ROWGAP = 16;
+  const colors = [t.accent, t.violet, t.up, t.amber, t.down, t.accent];
+  let y = 28, n = 0;
+  const rows = STACK.map(([label, items], ri) => {
+    const top = y;
+    let x = LX, out = "";
+    for (const item of items) {
+      const w = r1(item.length * 7.25 + 30);
+      if (x + w > RX) { x = LX; y += PH + GAP; }
+      out += `<g class="in" style="animation-delay:${r1(n++ * 0.04)}s"><rect x="${x}" y="${y}" width="${w}" height="${PH}" rx="13" fill="${t.faint}" stroke="${t.border}"/><circle cx="${x + 13}" cy="${y + PH / 2}" r="3.5" fill="${colors[ri]}"/><text x="${x + 23}" y="${y + 17.5}" class="m" font-size="12">${esc(item)}</text></g>`;
+      x += w + GAP;
+    }
+    const mid = top + PH / 2;
+    y += PH + ROWGAP;
+    return { mid, svg: `<circle cx="40" cy="${mid}" r="4.5" fill="${t.bg}" stroke="${colors[ri]}" stroke-width="2"/><text x="56" y="${mid + 4}" class="m mu" font-size="11" letter-spacing=".6">${esc(label.toUpperCase())}</text>${out}` };
+  });
+  const H = y - ROWGAP + 28, y0 = rows[0].mid, y1 = rows[rows.length - 1].mid;
+  return svg(W, H, t, `<line x1="40" x2="40" y1="${y0}" y2="${y1}" stroke="${t.border}" stroke-width="1.5"/>
+<circle cx="40" cy="${y0}" r="3.5" fill="${t.accent}" style="--d:${y1 - y0}px;animation:drop 4s ease-in-out infinite"/>
+${rows.map((r) => r.svg).join("\n")}`, { label: "Stack: " + STACK.map(([l, i]) => `${l}: ${i.join(", ")}`).join("; ") });
+}
+
+// ── Flow field: streamlines through a noise field, like the Lab experiment ───
+function flowField(t) {
+  const W = 840, H = 150;
+  let seed = 11;
+  const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
+  const colors = [t.accent, t.violet, t.up, t.accent, t.amber];
+  // Level curves of a stream function: they never cross or bunch up, so coverage stays even.
+  let paths = "";
+  for (let i = 0; i < 44; i++) {
+    const y0 = -20 + (i / 43) * (H + 40) + (rnd() - 0.5) * 3;
+    let d = "";
+    for (let x = -10; x <= W + 10; x += 14) {
+      const y = y0 + 17 * Math.sin(x * 0.0105 + y0 * 0.031) + 8 * Math.sin(x * 0.024 - y0 * 0.07) + 5 * Math.cos(x * 0.004 + i);
+      d += `${d ? "L" : "M"}${r1(x)} ${r1(y)}`;
+    }
+    const c = colors[i % colors.length];
+    paths += `<defs><path id="f${i}" d="${d}" fill="none"/></defs><use href="#f${i}" stroke="${c}" stroke-width="1" opacity=".16"/><use href="#f${i}" stroke="${c}" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="${r1(18 + rnd() * 40)} ${r1(200 + rnd() * 30)}" style="animation:run ${r1(5 + rnd() * 6)}s linear ${r1(-rnd() * 10)}s infinite"/>\n`;
+  }
+  return svg(W, H, t, `<clipPath id="c"><rect x="1" y="1" width="${W - 2}" height="${H - 2}" rx="10"/></clipPath>
+<g clip-path="url(#c)">${paths}</g>
+<rect x="16" y="${H - 38}" width="252" height="24" rx="12" fill="${t.bg}" opacity=".85"/>
+<text x="28" y="${H - 22}" class="m mu" font-size="11">flow field · play with it in the Lab →</text>`, { label: "Animated flow field: particles following a noise field" });
+}
+
 const initials = () => PROFILE.name.split(/\s+/).map((w) => w[0]).join("").toUpperCase();
 
 // ── Languages ────────────────────────────────────────────────────────────────
@@ -292,14 +354,14 @@ function project(t, p, repo) {
   const lines = wrap(p.text, 58).slice(0, 2);
   const lang = repo?.language;
   const tagW = r1(p.tag.length * 6.4 + 16);
-  return svg(W, H, t, `<text x="20" y="35" class="ac" font-size="16" font-weight="700">${esc(p.repo)}</text>
+  return svg(W, H, t, `<text x="20" y="35" class="ac" font-size="16" font-weight="700">${esc(p.title || p.repo)}</text>
 <rect x="${W - 20 - tagW}" y="19" width="${tagW}" height="22" rx="11" fill="none" stroke="${t.border}"/>
 <text x="${W - 20 - tagW / 2}" y="34" class="m mu" font-size="10.5" text-anchor="middle">${esc(p.tag)}</text>
 ${lines.map((l, i) => `<text x="20" y="${61 + i * 18}" class="mu" font-size="12.5">${esc(l)}</text>`).join("\n")}
 <circle cx="25" cy="104" r="5" fill="${lang?.color || t.muted}"/>
 <text x="38" y="108" font-size="12">${esc(lang?.name || "n/a")}</text>
 <text x="${W - 20}" y="108" class="m mu" font-size="11.5" text-anchor="end">★ ${repo?.stars ?? 0}  ·  pushed ${repo ? repo.pushedAt.slice(0, 7) : "n/a"}</text>`,
-    { label: `${p.repo}: ${p.text}` });
+    { label: `${p.title || p.repo}: ${p.text}` });
 }
 
 // ── Data ─────────────────────────────────────────────────────────────────────
@@ -367,7 +429,9 @@ function emit(dir, name, render) {
 
 if (args.has("--static")) {
   emit(join(ROOT, "assets"), "header", header);
-  console.log("wrote assets/header-{dark,light}.svg");
+  emit(join(ROOT, "assets"), "stack", stack);
+  emit(join(ROOT, "assets"), "flow", flowField);
+  console.log("wrote assets/{header,stack,flow}-{dark,light}.svg");
 } else {
   const data = args.has("--mock") ? mockData() : await fetchLive();
   const dist = join(ROOT, "dist");
@@ -377,7 +441,7 @@ if (args.has("--static")) {
   for (const p of PROJECTS) {
     const repo = data.repos.find((r) => r.name.toLowerCase() === p.repo.toLowerCase());
     if (!repo) console.warn(`warning: featured repo "${p.repo}" not found among public repos`);
-    emit(dist, `project-${p.repo.toLowerCase()}`, (t) => project(t, p, repo));
+    emit(dist, `project-${p.slug || p.repo.toLowerCase()}`, (t) => project(t, p, repo));
   }
   console.log(`wrote ${3 + PROJECTS.length} cards x 2 themes to dist/ (${data.repos.length} repos, ${data.weeks.length} weeks)`);
 }
