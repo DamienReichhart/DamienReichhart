@@ -1,117 +1,92 @@
-<!-- Typing SVG by DenverCoder1 - https://github.com/DenverCoder1/readme-typing-svg -->
-<div align="center">
-  <a href="https://github.com/DamienReichhart">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=36&duration=3000&pause=1000&color=0366D6&center=true&vCenter=true&width=600&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Damien+Reichhart;Full-Stack+Developer;Docker+Enthusiast;Automation+Expert" alt="Typing SVG" />
-  </a>
-</div>
+<a href="https://damien-reichhart.fr">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img src="assets/header-light.svg" width="100%" alt="Damien Reichhart, software engineer: full stack, DevOps and AI. Strasbourg, France.">
+  </picture>
+</a>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=damienreichhart&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <a href="https://damien-reichhart.fr"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://backtrade.damien-reichhart.fr"><b>BackTrade live</b></a> &nbsp;·&nbsp;
+  <a href="https://damienreichhart.github.io/Homeport/"><b>Homeport</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/damien-reichhart-582229244/"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="https://gitlab.com/Damien-Reic"><b>GitLab</b></a> &nbsp;·&nbsp;
+  <a href="https://damien-reichhart.fr/contact"><b>Contact</b></a>
 </p>
 
-<!-- Badges -->
-<p align="center">
-  <a href="https://damien-reichhart.fr" target="_blank">
-    <img src="https://img.shields.io/badge/Website-damien--reichhart.fr-blue?style=for-the-badge&logo=globe" alt="Website" />
-  </a>
-  <a href="https://github.com/DamienReichhart/Backtrade" target="_blank">
-    <img src="https://img.shields.io/badge/Project-BackTrade-orange?style=for-the-badge&logo=github" alt="Backtrade Project" />
-  </a>
-</p>
+I like owning a product end to end: designing the architecture, building the interface and the APIs behind it, then automating how it gets tested, deployed and monitored. By day I'm a software engineer at Walter Piscine (work-study, alongside a master's in software engineering at CCI Campus Alsace). By night I build trading tools and container tooling, mostly in TypeScript, Rust and Python.
 
-<!-- About me section with animation -->
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="300" height="200" />
-</div>
-
-## About Me
-
--  I'm currently working on [BackTrade](https://github.com/DamienReichhart/BackTrade)
--  I'm continuously learning and exploring new technologies
--  Check out my portfolio at [damien-reichhart.fr](https://damien-reichhart.fr)
--  Reach me at: [LinkedIn](https://www.linkedin.com/in/damien-reichhart-582229244/)
-
-## GitHub Stats
-
-<div align="center">
-
-  <!-- Main Stats – modern glass look -->
-  <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=damienreichhart&show_icons=true&count_private=true&include_all_commits=true&rank_icon=github&theme=react&hide_border=true&border_radius=12"
-    height="170"
-    alt="Main GitHub Stats"
-  />
-
-  <!-- Streak Stats -->
-  <img 
-    src="https://streak-stats.demolab.com?user=damienreichhart&theme=react&hide_border=true&border_radius=12"
-    height="170"
-    alt="GitHub Streak"
-  />
-</div>
-
-<!-- Language Card -->
-<div align="center">
-  <img 
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=damienreichhart&layout=compact&theme=react&hide_border=true&border_radius=12"
-    height="180"
-    alt="Top Languages"
-  />
-</div>
-
-## Skills & Technologies
-
-<details open>
-  <summary><b>Technologies I Actually Use Daily</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=python,spring,react,postgres,redis" />
-  </p>
-</details>
-
-<details open>
-  <summary><b>Tools I Use When Needed</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=tauri,nodejs" />
-  </p>
-</details>
-
-<details open>
-  <summary><b>DevOps & Tools</b></summary>
-  <br>
-  <p align="center">
-    <img src="https://skillicons.dev/icons?i=docker,kubernetes,jenkins,git,linux,bash" />
-  </p>
-</details>
-
-## Connect With Me
+## Featured work
 
 <p align="center">
-  <a href="https://github.com/DamienReichhart" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://gitlab.com/Damien-Reic" target="_blank">
-    <img src="https://img.shields.io/badge/GitLab-330F63?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
-  </a>
-  <a href="https://www.linkedin.com/in/damien-reichhart-582229244/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+  <a href="https://github.com/DamienReichhart/BackTrade"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-backtrade-dark.svg"><img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-backtrade-light.svg" width="49%" alt="BackTrade: replay historical markets as if they were live, trade in simulated real time, then review your performance. TypeScript."></picture></a>
+  <a href="https://github.com/DamienReichhart/Homeport"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-homeport-dark.svg"><img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-homeport-light.svg" width="49%" alt="Homeport: every Docker Engine on one board. Agentless desktop app for Docker, Podman, Swarm and Kubernetes hosts. Rust and Tauri."></picture></a>
+  <a href="https://github.com/DamienReichhart/MarketForge"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-marketforge-dark.svg"><img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-marketforge-light.svg" width="49%" alt="MarketForge: synthetic OHLCV market data for forex, crypto and stocks. Python, on PyPI."></picture></a>
+  <a href="https://github.com/DamienReichhart/DeliverTable"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-delivertable-dark.svg"><img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/project-delivertable-light.svg" width="49%" alt="DeliverTable: restaurant booking and delivery platform. C#, Blazor, ASP.NET Core."></picture></a>
 </p>
 
-<!-- GitHub Activity Graph -->
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=damienreichhart&theme=tokyo-night&hide_border=true" width="100%"/>
-</div>
+Also on the shelf: [ChatApp](https://github.com/DamienReichhart/ChatApp) (JavaFX client, Spring Boot server, WebSockets), [DockerWebInterface](https://github.com/DamienReichhart/DockerWebInterface) (the PHP ancestor of Homeport), a [production TypeScript monorepo template](https://github.com/DamienReichhart/template-fullstack-typescript-production), and self-hosting stacks for [Odoo](https://github.com/DamienReichhart/Odoo-Docker), [ERPNext](https://github.com/DamienReichhart/ERPNext-Docker) and [Nextcloud](https://github.com/DamienReichhart/NextCloud-Docker).
 
-<!-- Snake animation -->
+## The commit market
+
+I build backtesting tools, so my contribution graph gets the same treatment: a year of commits, drawn as weekly candles. The index pumps when I ship and decays when I don't.
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/damienreichhart/damienreichhart/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/damienreichhart/damienreichhart/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/damienreichhart/damienreichhart/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/market-dark.svg">
+  <img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/market-light.svg" width="100%" alt="One year of GitHub contributions drawn as a weekly candlestick chart with volume bars.">
 </picture>
 
-<!-- Footer -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
-</div>
+<p align="center"><sub>Past performance is no guarantee of future commits. Not financial advice.</sub></p>
+
+<p align="center">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/languages-dark.svg"><img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/languages-light.svg" width="49%" alt="Language breakdown across public repositories."></picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/activity-dark.svg"><img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/activity-light.svg" width="49%" alt="The five most recently pushed public repositories."></picture>
+</p>
+
+## Toolbox
+
+Only what the repositories above can back up.
+
+<table>
+  <tr><th align="left">Languages</th><td>TypeScript · Rust · Python · C# · Java · PHP · Bash</td></tr>
+  <tr><th align="left">Frontend</th><td>React · Vite · TanStack Query · Blazor · Tauri · JavaFX</td></tr>
+  <tr><th align="left">Backend</th><td>Node.js · Express · ASP.NET Core · Spring Boot · Prisma · WebSockets · SignalR · Stripe</td></tr>
+  <tr><th align="left">Data</th><td>PostgreSQL · ClickHouse · Redis · RabbitMQ · MinIO · MariaDB</td></tr>
+  <tr><th align="left">Ops</th><td>Docker · Kubernetes · Nginx · Traefik · Cloudflare Tunnel · GitHub Actions · GitLab CI/CD · Linux</td></tr>
+  <tr><th align="left">Self-hosted</th><td>Odoo · ERPNext · Nextcloud, with nothing exposed to the internet but a tunnel</td></tr>
+</table>
+
+## Right now
+
+- Building [Homeport](https://github.com/DamienReichhart/Homeport) in Rust, one release at a time
+- Learning to run ERPs in production (Odoo 19, ERPNext v16)
+- Reading Cont, [*Empirical properties of asset returns*](https://doi.org/10.1080/713665670), to make synthetic markets less synthetic
+- Studying for a master's in software engineering, graduating June 2028
+
+<details>
+<summary><b>git log --oneline career</b></summary>
+
+```
+* 2026-07 (HEAD -> main) Software engineer: full stack, DevOps & AI @ Walter Piscine · master's (Bac+5) @ CCI Campus Alsace
+* 2025-09 Full-stack & automation developer, work-study · CDA (Bac+3)
+* 2023-09 Software engineer, work-study: technical plan generator wired into the ERP · BTS SIO, top of the class
+* 2023-06 Baccalauréat, mathematics & computer science, mention Bien
+* 2019-12 Initial commit: observation internship at Exxelia
+```
+
+</details>
+
+## Off the clock
+
+- **Markets and trading systems.** Why prices move the way they do, and how to test an idea before trusting it.
+- **Homelab.** Running my own services is cheaper than therapy and only slightly less stable.
+- **Creative coding.** A [flow field](https://damien-reichhart.fr/lab) made of thousands of particles and a pentatonic [tone grid](https://damien-reichhart.fr/lab) you can play in the browser.
+
+And because every profile needs one: my contribution graph, eaten daily.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/DamienReichhart/DamienReichhart/output/snake-light.svg" width="100%" alt="A snake eating the contribution graph.">
+</picture>
+
+<p align="center"><sub>Every card on this page is an SVG rebuilt nightly by <a href="scripts/generate.mjs">one dependency-free script</a>. No third-party stat widgets, nothing to rate-limit.</sub></p>

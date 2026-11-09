@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 230" width="840" height="230" role="img" aria-label="Damien Reichhart, Software Engineer, Full Stack · DevOps · AI, Ships from UI to infrastructure">
+<style>
+text{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,sans-serif;fill:#1f2328}
+.m{font-family:ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace}
+.mu{fill:#656d76}
+.ac{fill:#0969da}
+@keyframes in{from{opacity:0}to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@keyframes flow{to{stroke-dashoffset:-24}}
+.in{opacity:0;animation:in .5s ease-out forwards}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}.in{opacity:1}}
+</style>
+<rect x=".5" y=".5" width="839" height="229" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<circle cx="20" cy="198.2" r="0.9" fill="#656d76" style="animation:pulse 2.8s ease-in-out 2.9s infinite"/><circle cx="446.2" cy="79.9" r="1.4" fill="#656d76" style="animation:pulse 5s ease-in-out 2.2s infinite"/><circle cx="567.6" cy="141.2" r="1.4" fill="#656d76" style="animation:pulse 3s ease-in-out 1.5s infinite"/><circle cx="586.3" cy="153.6" r="0.7" fill="#656d76" style="animation:pulse 4.7s ease-in-out 1.9s infinite"/><circle cx="757.9" cy="175.5" r="0.7" fill="#656d76" style="animation:pulse 4.1s ease-in-out 3.7s infinite"/><circle cx="570.8" cy="142.8" r="1.2" fill="#656d76" style="animation:pulse 5.6s ease-in-out 3.6s infinite"/><circle cx="317.8" cy="81.1" r="1.4" fill="#656d76" style="animation:pulse 3.3s ease-in-out 0.6s infinite"/><circle cx="258.1" cy="99.7" r="0.9" fill="#656d76" style="animation:pulse 5.7s ease-in-out 2.2s infinite"/><circle cx="603.4" cy="189.6" r="0.7" fill="#656d76" style="animation:pulse 3.1s ease-in-out 2.2s infinite"/><circle cx="427" cy="98.3" r="0.8" fill="#656d76" style="animation:pulse 5.6s ease-in-out 0.2s infinite"/><circle cx="312.4" cy="82.8" r="1.3" fill="#656d76" style="animation:pulse 5.7s ease-in-out 2.1s infinite"/><circle cx="152.4" cy="95.1" r="0.9" fill="#656d76" style="animation:pulse 3.5s ease-in-out 1.7s infinite"/><circle cx="286.1" cy="120.3" r="1.2" fill="#656d76" style="animation:pulse 2.9s ease-in-out 3.6s infinite"/><circle cx="386.3" cy="186.6" r="1.2" fill="#656d76" style="animation:pulse 4.5s ease-in-out 2.1s infinite"/><circle cx="424" cy="151.8" r="1.5" fill="#656d76" style="animation:pulse 3.6s ease-in-out 2.8s infinite"/><circle cx="220.9" cy="131.4" r="1" fill="#656d76" style="animation:pulse 3.3s ease-in-out 1.6s infinite"/><circle cx="655.8" cy="189.5" r="0.7" fill="#656d76" style="animation:pulse 5.3s ease-in-out 0.3s infinite"/><circle cx="345.4" cy="44.7" r="0.7" fill="#656d76" style="animation:pulse 6s ease-in-out 0.9s infinite"/><circle cx="525.9" cy="42.9" r="1.1" fill="#656d76" style="animation:pulse 4.4s ease-in-out 0.6s infinite"/><circle cx="757.5" cy="190.9" r="1.5" fill="#656d76" style="animation:pulse 5.5s ease-in-out 3.6s infinite"/><circle cx="628.9" cy="69.1" r="0.6" fill="#656d76" style="animation:pulse 3s ease-in-out 0.3s infinite"/><circle cx="21.3" cy="137.4" r="0.8" fill="#656d76" style="animation:pulse 5s ease-in-out 2s infinite"/><circle cx="570" cy="61.6" r="1.5" fill="#656d76" style="animation:pulse 2.9s ease-in-out 1.5s infinite"/><circle cx="735.4" cy="37.7" r="1.1" fill="#656d76" style="animation:pulse 2s ease-in-out 3.7s infinite"/><circle cx="529.5" cy="198.4" r="0.6" fill="#656d76" style="animation:pulse 5.6s ease-in-out 0.8s infinite"/><circle cx="795" cy="127.1" r="1.3" fill="#656d76" style="animation:pulse 3.1s ease-in-out 0.9s infinite"/><circle cx="187.1" cy="126.9" r="0.7" fill="#656d76" style="animation:pulse 5.1s ease-in-out 2.8s infinite"/><circle cx="591.3" cy="113.6" r="0.6" fill="#656d76" style="animation:pulse 2.4s ease-in-out 3.7s infinite"/>
+<line x1="560" y1="62" x2="668" y2="40" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 3s linear infinite"/>
+<line x1="668" y1="40" x2="770" y2="78" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 4s linear infinite"/>
+<line x1="560" y1="62" x2="612" y2="128" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 5s linear infinite"/>
+<line x1="668" y1="40" x2="612" y2="128" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 3s linear infinite"/>
+<line x1="612" y1="128" x2="726" y2="142" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 4s linear infinite"/>
+<line x1="770" y1="78" x2="726" y2="142" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 5s linear infinite"/>
+<line x1="612" y1="128" x2="560" y2="186" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 3s linear infinite"/>
+<line x1="726" y1="142" x2="790" y2="188" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 4s linear infinite"/>
+<line x1="668" y1="40" x2="726" y2="142" stroke="#d0d7de" stroke-width="1.2" stroke-dasharray="4 8" style="animation:flow 5s linear infinite"/>
+<circle cx="560" cy="62" r="11" fill="#0969da" opacity=".14" style="animation:pulse 3s ease-in-out 0s infinite"/>
+<circle cx="560" cy="62" r="4" fill="#0969da"/>
+<text x="560" y="86" text-anchor="middle" class="m mu" font-size="11">TypeScript</text>
+<circle cx="668" cy="40" r="11" fill="#9a6700" opacity=".14" style="animation:pulse 3.7s ease-in-out 0.4s infinite"/>
+<circle cx="668" cy="40" r="4" fill="#9a6700"/>
+<text x="668" y="64" text-anchor="middle" class="m mu" font-size="11">Rust</text>
+<circle cx="770" cy="78" r="11" fill="#1a7f37" opacity=".14" style="animation:pulse 4.4s ease-in-out 0.8s infinite"/>
+<circle cx="770" cy="78" r="4" fill="#1a7f37"/>
+<text x="770" y="102" text-anchor="middle" class="m mu" font-size="11">Python</text>
+<circle cx="612" cy="128" r="11" fill="#0969da" opacity=".14" style="animation:pulse 5.1s ease-in-out 1.2000000000000002s infinite"/>
+<circle cx="612" cy="128" r="4" fill="#0969da"/>
+<text x="612" y="152" text-anchor="middle" class="m mu" font-size="11">Docker</text>
+<circle cx="726" cy="142" r="11" fill="#8250df" opacity=".14" style="animation:pulse 3s ease-in-out 1.6s infinite"/>
+<circle cx="726" cy="142" r="4" fill="#8250df"/>
+<text x="726" y="166" text-anchor="middle" class="m mu" font-size="11">Kubernetes</text>
+<circle cx="560" cy="186" r="11" fill="#1a7f37" opacity=".14" style="animation:pulse 3.7s ease-in-out 2s infinite"/>
+<circle cx="560" cy="186" r="4" fill="#1a7f37"/>
+<text x="560" y="210" text-anchor="middle" class="m mu" font-size="11">PostgreSQL</text>
+<circle cx="790" cy="188" r="11" fill="#8250df" opacity=".14" style="animation:pulse 4.4s ease-in-out 2.4000000000000004s infinite"/>
+<circle cx="790" cy="188" r="4" fill="#8250df"/>
+<text x="790" y="212" text-anchor="middle" class="m mu" font-size="11">LLMs</text>
+<text x="40" y="52" class="m mu" font-size="13"><tspan fill="#1a7f37">~</tspan> $ whoami</text>
+<text x="40" y="100" font-size="40" font-weight="700" letter-spacing="-.5">Damien Reichhart</text>
+<clipPath id="r0"><rect x="40" y="118" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0;0.0833;0.2833;0.3333;1" values="0;0;185.3;185.3;0;0"/></rect></clipPath>
+<text x="40" y="140" class="m ac" font-size="18" textLength="185.3" lengthAdjust="spacingAndGlyphs" clip-path="url(#r0)">Software Engineer</text>
+<rect y="122" width="9" height="22" fill="#0969da" opacity="0" style="animation:blink 1s steps(1) infinite"><animate attributeName="x" dur="12s" repeatCount="indefinite" keyTimes="0;0;0.0833;0.2833;0.3333;1" values="42;42;229.3;229.3;42;42"/><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0;0.3333;1" values="0;1;0;0"/></rect>
+<clipPath id="r1"><rect x="40" y="118" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.3333;0.4167;0.6167;0.6667000000000001;1" values="0;0;261.6;261.6;0;0"/></rect></clipPath>
+<text x="40" y="140" class="m ac" font-size="18" textLength="261.6" lengthAdjust="spacingAndGlyphs" clip-path="url(#r1)">Full Stack · DevOps · AI</text>
+<rect y="122" width="9" height="22" fill="#0969da" opacity="0" style="animation:blink 1s steps(1) infinite"><animate attributeName="x" dur="12s" repeatCount="indefinite" keyTimes="0;0.3333;0.4167;0.6167;0.6667000000000001;1" values="42;42;305.6;305.6;42;42"/><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.3333;0.6667000000000001;1" values="0;1;0;0"/></rect>
+<clipPath id="r2"><rect x="40" y="118" height="30" width="0"><animate attributeName="width" dur="12s" repeatCount="indefinite" keyTimes="0;0.6667000000000001;0.75;0.95;1;1" values="0;0;337.9;337.9;0;0"/></rect></clipPath>
+<text x="40" y="140" class="m ac" font-size="18" textLength="337.9" lengthAdjust="spacingAndGlyphs" clip-path="url(#r2)">Ships from UI to infrastructure</text>
+<rect y="122" width="9" height="22" fill="#0969da" opacity="0" style="animation:blink 1s steps(1) infinite"><animate attributeName="x" dur="12s" repeatCount="indefinite" keyTimes="0;0.6667000000000001;0.75;0.95;1;1" values="42;42;381.9;381.9;42;42"/><animate attributeName="opacity" dur="12s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.6667000000000001;1;1" values="0;1;0;0"/></rect>
+<text x="40" y="186" class="mu" font-size="13.5">Strasbourg, France  ·  work-study engineer and master's student</text>
+<text x="40" y="206" class="mu" font-size="13.5">Building trading tools and container tooling in the open</text>
+</svg>
